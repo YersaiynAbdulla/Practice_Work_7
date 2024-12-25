@@ -3,7 +3,7 @@
 }
 
 .hero {
-    background-image: url('https://img.freepik.com/premium-photo/clay-dishes-plate-top-view-free-space-your-text_187166-10574.jpg'); /* Путь к вашему изображению */
+    background-image: url('https://img.freepik.com/premium-photo/clay-dishes-plate-top-view-free-space-your-text_187166-10574.jpg'); 
     background-size: cover; 
     background-position: center; 
     height: 100vh; 
@@ -11,7 +11,7 @@
 }
 
 .custom-orange {
-    color: #96661d; /* Пример оранжевого оттенка */
+    color: #96661d; 
 }
 
 .hero::before {
