@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing page</title>
+    <link rel="stylesheet" href="css.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <div class="container-fluid">
+
+            <a class="navbar-brand" href="#">
+              <img src="https://marketplace.canva.com/EAFpeiTrl4c/1/0/1600w/canva-abstract-chef-cooking-restaurant-free-logo-9Gfim1S8fHg.jpg" alt="Logo" width="40" height="40" class="d-inline-block align-text-top">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Переключатель навигации">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-primary" href="#about">О ресторане</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-primary" href="#menu">Меню</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-primary" href="#testimonials">Отзывы</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-primary" href="#contact">Контакты</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-primary" href="#reservation">Бронирование</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero d-flex align-items-center text-center">
+        <div class="container">
+            <h1 class="display-3 custom-orange fw-bold mb-3">Master Chef</h1>
+            <h1 class="display-4 text-white">Изысканная кухня для гурманов</h1>
+            <p class="lead text-white">Погрузитесь в мир вкусов и элегантности</p>
+            <div>
+                <a href="#menu" class="btn btn-primary btn-lg m-2">Посмотреть меню</a>
+                <a href="#reservation" class="btn btn-secondary btn-lg m-2">Забронировать столик</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="row mb-4">
+                <div class="col text-center">
+                    <h2 class="display-4">О ресторане</h2>
+                    <p class="lead">Мы объединяем традиции с современностью, чтобы подарить вам незабываемые впечатления.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoyJz8cmgaFXXgRghIqu65S3yNcYsAOi6O8g&sы" class="card-img-top" alt="Интерьер ресторана">
+                        <div class="card-body">
+                            <h5 class="card-title">Наша история</h5>
+                            <p class="card-text">Основан в 1995 году, наш ресторан привносит лучшие традиции кухни.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://sun9-67.userapi.com/s/v1/ig2/AOVUcmhXfU9TKnAt6k1IATnJ-lPMgWLg_WcI08UD9XWv9Fz7nW3h5RPNG9uS1E1DBOtCd22nV-9P3ngGLTqmbjq6.jpg?quality=95&as=32x24,48x37,72x55,108x83,160x122,240x184,360x276,480x367,540x413,640x490,720x551,1057x809&from=bu&u=5APAMX7chHi8O5ZBSr6uhGNisDhQlTZBWSYhsxmcwJA&cs=807x618" class="card-img-top" alt="Команда ресторана">
+                        <div class="card-body">
+                            <h5 class="card-title">Команда</h5>
+                            <p class="card-text">Профессиональные шеф-повара и приветливый персонал делают ваш вечер особенным.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSowX9ngZPJOo3_mrWqk58Z-AAU4CvR1zsN1wOmJNPHJtsXJgt83klzwo-pVRwe84eRtYE&usqp=CAU" class="card-img-top" alt="Команда ресторана">
+                        <div class="card-body">
+                            <h5 class="card-title">Интерьер</h5>
+                            <p class="card-text">Современный и уютный интерьер, сочетающий стильные элементы для приятной атмосферы.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <section id="menu" class="py-5">
+        <div class="container">
+            <h2 class="display-4 text-center mb-5">Меню</h2>
+            
+            <div class="category">
+                <h3 class="mb-4">Закуски</h3>
+                <div class="row">
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYfED36c0aJJVdMETBsUfPnNzc11QQ0mSM6Q&s" class="card-img-top" alt="Закуска 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Капрезе</h5>
+                                <p class="card-text">Помидоры, моцарелла, базилик с оливковым маслом и бальзамическим уксусом.</p>
+                                <p class="card-text">Цена: 500₸</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRN-w6W28mfNJPAJ9qSIl2FMibxXV-WDCXiI606iuNbbXeBXVDYza6aKLn6tYpjCCu2Pdw&usqp=CAU" class="card-img-top" alt="Закуска 2">
+                            <div class="card-body">
+                                <h5 class="card-title">Тартар из тунца</h5>
+                                <p class="card-text">Свежий тунец, авокадо, огурец, лайм, соевый соус.</p>
+                                <p class="card-text">Цена: 700₸</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsX6VFTcld0eHpUONf5zbVJOHHYvTs-l8kTw&s" class="card-img-top" alt="Закуска 2">
+                            <div class="card-body">
+                                <h5 class="card-title">Карпаччо из говядины</h5>
+                                <p class="card-text">Тонко нарезанные ломтики говядины, руккола, пармезан, оливковое масло.</p>
+                                <p class="card-text">Цена: 1000₸</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="category mt-5">
+                <h3 class="mb-4">Основные блюда</h3>
+                <div class="row">
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSy5QnClr8imtgeOxclHTaBb7JJPNGar2vUWA&s" class="card-img-top" alt="Основное блюдо 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Лазанья с соусом Болоньезе</h5>
+                                <p class="card-text">Паста, мясной соус, сыр моцарелла, пармезан.</p>
+                                <p class="card-text">Цена: 1500₸</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTTkR3aAGvmyr8pXQ6FEOmRMrnR0eya46BSw&s" class="card-img-top" alt="Основное блюдо 2">
+                            <div class="card-body">
+                                <h5 class="card-title">Стейк Нью-Йорк</h5>
+                                <p class="card-text">Сочный стейк, поданный с жареными овощами и картофелем.</p>
+                                <p class="card-text">Цена: 1800₸</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwnBWOlDCuX-18Hl1GjY00b6XlhEMU2lpstQ&s" class="card-img-top" alt="Основное блюдо 2">
+                            <div class="card-body">
+                                <h5 class="card-title">Филе рыбы на пару с лимоном</h5>
+                                <p class="card-text">Филе белой рыбы с легким лимонным соусом и зелеными овощами.</p>
+                                <p class="card-text">Цена: 1500₸</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="category mt-5">
+                <h3 class="mb-4">Десерты</h3>
+                <div class="row">
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxeN3r1iUadkvtU4fap9Am0LOm40EI_qQWkQ&s" class="card-img-top" alt="Десерт 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Тирамису</h5>
+                                <p class="card-text">Традиционный итальянский десерт с кофе, маскарпоне и какао.</p>
+                                <p class="card-text">Цена: 600₸</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUsrfvazMLka0WvNXhxEYYsr7StlQ62QycIA&s" class="card-img-top" alt="Десерт 2">
+                            <div class="card-body">
+                                <h5 class="card-title">Шоколадный фондан</h5>
+                                <p class="card-text">Горячий шоколадный пирог с жидким центром, подается с ванильным мороженым.</p>
+                                <p class="card-text">Цена: 750₸</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKAwsU3gF_Qy1MSrkDzOpChIc_AZr16eHiqA&s" class="card-img-top" alt="Десерт 2">
+                            <div class="card-body">
+                                <h5 class="card-title">Чизкейк Нью-Йорк</h5>
+                                <p class="card-text">Кремообразный чизкейк на песочной основе с ягодным соусом.</p>
+                                <p class="card-text">Цена: 500₸</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <section id="testimonials" class="py-5">
+        <div class="container">
+            <h2 class="display-4 text-center mb-5">Отзывы</h2>
+    
+            <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+    
+                    <div class="carousel-item active">
+                        <div class="d-flex justify-content-center">
+                            <div class="testimonial-card text-center">
+                                <h5 class="font-weight-bold">Анна Иванова</h5>
+                                <p class="text-muted">"Отличное место для отдыха, невероятно вкусная еда! Обязательно вернусь."</p>
+                                <div class="stars">
+                                    &#9733;&#9733;&#9733;&#9733;&#9733;
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="carousel-item">
+                        <div class="d-flex justify-content-center">
+                            <div class="testimonial-card text-center">
+                                <h5 class="font-weight-bold">Сергей Смирнов</h5>
+                                <p class="text-muted">"Очень уютная атмосфера и дружелюбный персонал. Мы были с друзьями, все довольны!"</p>
+                                <div class="stars">
+                                    &#9733;&#9733;&#9733;&#9733;&#9733;
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="carousel-item">
+                        <div class="d-flex justify-content-center">
+                            <div class="testimonial-card text-center">
+                                <h5 class="font-weight-bold">Ирина Васильева</h5>
+                                <p class="text-muted">"Замечательная кухня и отличный сервис. Настоящий отдых для ценителей хорошей еды!"</p>
+                                <div class="stars">
+                                    &#9733;&#9733;&#9733;&#9733;&#9733;
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Предыдущий</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Следующий</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section id="reservation" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Бронирование столика</h2>
+            
+            <form id="reservationForm">
+                <div class="row mb-3">
+                    <label for="name" class="col-sm-2 col-form-label">Имя</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="name" placeholder="Введите ваше имя" required>
+                    </div>
+                </div>
+                
+                <div class="row mb-3">
+                    <label for="email" class="col-sm-2 col-form-label">Email</label>
+                    <div class="col-sm-10">
+                        <input type="email" class="form-control" id="email" placeholder="Введите ваш email" required>
+                    </div>
+                </div>
+                
+                <div class="row mb-3">
+                    <label for="phone" class="col-sm-2 col-form-label">Телефон</label>
+                    <div class="col-sm-10">
+                        <input type="tel" class="form-control" id="phone" placeholder="Введите ваш телефон" required>
+                    </div>
+                </div>
+                
+                <div class="row mb-3">
+                    <label for="date" class="col-sm-2 col-form-label">Дата</label>
+                    <div class="col-sm-10">
+                        <input type="date" class="form-control" id="date" required>
+                    </div>
+                </div>
+                
+                <div class="row mb-3">
+                    <label for="time" class="col-sm-2 col-form-label">Время</label>
+                    <div class="col-sm-10">
+                        <input type="time" class="form-control" id="time" required>
+                    </div>
+                </div>
+                
+                <div class="row mb-3">
+                    <label for="people" class="col-sm-2 col-form-label">Количество человек</label>
+                    <div class="col-sm-10">
+                        <input type="number" class="form-control" id="people" placeholder="Количество человек" required>
+                    </div>
+                </div>
+                
+                <div class="row mb-3">
+                    <label for="preferences" class="col-sm-2 col-form-label">Особые пожелания</label>
+                    <div class="col-sm-10">
+                        <textarea class="form-control" id="preferences" rows="3" placeholder="Введите ваши пожелания"></textarea>
+                    </div>
+                </div>
+                
+                <div class="row mb-3">
+                    <div class="col-sm-10 offset-sm-2">
+                        <button type="submit" class="btn btn-primary">Забронировать</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+    
+    <section id="contact" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Контакты</h2>
+            
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <h5>Адрес</h5>
+                    <p>Кабанбай Батыра 54, Астана, Казахстан</p>
+                </div>
+                
+                <div class="col-md-4 mb-3">
+                    <h5>Телефон</h5>
+                    <p><a href="tel:+77788899910" class="text-dark">+7 (778) 889-9910</a></p>
+                </div>
+                
+                <div class="col-md-4 mb-3">
+                    <h5>Email</h5>
+                    <p><a href="#" class="text-dark">master_chef_info@gmail.com</a></p>
+                </div>
+            </div>
+    
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h5>Следите за нами в соцсетях</h5>
+                    <a href="#" class="btn btn-primary me-2">Facebook</a>
+                    <a href="#" class="btn btn-danger me-2">Instagram</a>
+                    <a href="#" class="btn btn-info">Twitter</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-4 bg-dark text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="https://marketplace.canva.com/EAFpeiTrl4c/1/0/1600w/canva-abstract-chef-cooking-restaurant-free-logo-9Gfim1S8fHg.jpg" alt="Логотип Ресторана" class="img-fluid" width="150">
+                </div>
+    
+                <div class="col-md-4">
+                    <h5>Меню</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white">Политика конфиденциальности</a></li>
+                        <li><a href="#" class="text-white">Условия использования</a></li>
+                        <li><a href="#" class="text-white">Блог</a></li>
+                    </ul>
+                </div>
+    
+                <div class="col-md-4">
+                    <h5>Социальные сети</h5>
+                    <a href="https://facebook.com" class="text-white me-2">Facebook</a>
+                    <a href="https://instagram.com" class="text-white me-2">Instagram</a>
+                    <a href="https://twitter.com" class="text-white">Twitter</a>
+                </div>
+            </div>
+            
+            <div class="row mt-3">
+                <div class="col text-center">
+                    <p>© 2024 Ресторан "Master Chef"</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
